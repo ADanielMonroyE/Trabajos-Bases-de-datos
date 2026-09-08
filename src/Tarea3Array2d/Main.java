@@ -2,6 +2,7 @@ package Tarea3Array2d;
 
 public class Main {
     public static void main(String[] args) {
+
         Array2D tablero = CSVReader.leerCSV("C:\\Users\\danie\\IdeaProjects\\Trabajos\\src\\Tarea3Array2d\\poblacion.csv");
 
         System.out.println("Generación inicial:");
