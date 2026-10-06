@@ -10,12 +10,12 @@ public class ListaLigada<T> {
         tamanio = 0;
     }
 
-    // esta_vacia()
+    // esta vacia()
     public boolean estaVacia() {
         return head == null;
     }
 
-    // get_tamanio()
+    // get tamanio()
     public int getTamanio() {
         return tamanio;
     }
@@ -57,7 +57,7 @@ public class ListaLigada<T> {
         tamanio++;
     }
 
-    // agregar despues de(referencia, valor)
+    // agregar despues de referencia (valor)
     public boolean agregarDespuesDe(T referencia, T valor) {
 
         Nodo<T> aux = head;
@@ -141,7 +141,7 @@ public class ListaLigada<T> {
         return -1;
     }
 
-    // actualizar(a_buscar, valor)
+    // actualizar a buscar (valor)
     public boolean actualizar(T buscar, T nuevoValor) {
 
         Nodo<T> aux = head;
